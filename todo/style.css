@@ -1,34 +1,34 @@
 * {
-	padding: 5;
-	margin: 10;
-	box-sizing: border-box;
-	font-family: cursive;
+	padding: 5px;
+	margin: 5px;
+	box-sizing:border-box;
+	font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 body {
-	background:white;
-	overflow: auto;
+	background-color: aqua;
+	overflow:scroll;
 }
 
 h1{
 	text-align: center;
-	margin: 5%;
-	font-size: 3rem;
-	text-decoration: underline;
+	margin: 10px;
+	font-size:large;
+	text-decoration:underline;
 }
 
 ul {
 	text-align: left;
-	padding-left: 10%;
-	padding: 7%;
-	font-size: 2rem;
-	list-style: circle;
+	padding-left: 10px;
+	padding: 7px;
+	font-size:medium;
+	list-style-type: style;;
 }
 
 li:hover{
 	color:red;
-	margin: 10%;
-	transition: 2s ease;
-	cursor: pointer;
+	margin: 20px;
+	transition:ease-in-out;
+	cursor:pointer;
 }
 
